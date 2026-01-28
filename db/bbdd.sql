@@ -26,7 +26,7 @@ CREATE TABLE apartamentos (
 );
  
 -- =========================================
--- TABLA: USUARIOS (5 ATRIBUTOS)
+-- TABLA: USUARIOS (6 ATRIBUTOS)
 -- Para registro y login
 -- =========================================
 CREATE TABLE usuarios (
@@ -34,6 +34,7 @@ CREATE TABLE usuarios (
     nombre VARCHAR(100) NOT NULL,
     email VARCHAR(150) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
+    rol ENUM('usuario', 'admin') DEFAULT 'usuario' NOT NULL,
     fecha_registro DATETIME DEFAULT CURRENT_TIMESTAMP
 );
  

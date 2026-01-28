@@ -4,6 +4,7 @@ class Usuario {
     private $nombre;
     private $email;
     private $password;
+    private $rol;
     private $fecha_registro;
     
     // Constructor
@@ -12,12 +13,14 @@ class Usuario {
         $nombre = null,
         $email = null,
         $password = null,
+        $rol = 'usuario',
         $fecha_registro = null
     ) {
         $this->id_usuario = $id_usuario;
         $this->nombre = $nombre;
         $this->email = $email;
         $this->password = $password;
+        $this->rol = $rol;
         $this->fecha_registro = $fecha_registro;
     }
 
@@ -36,6 +39,10 @@ class Usuario {
 
     public function getPassword() {
         return $this->password;
+    }
+
+    public function getRol() {
+        return $this->rol;
     }
 
     public function getFechaRegistro() {
@@ -57,6 +64,10 @@ class Usuario {
 
     public function setPassword($password) {
         $this->password = $password;
+    }
+
+    public function setRol($rol) {
+        $this->rol = $rol;
     }
 
     public function setFechaRegistro($fecha_registro) {
