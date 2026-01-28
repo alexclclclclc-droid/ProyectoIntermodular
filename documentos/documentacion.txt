@@ -1,0 +1,8 @@
+27/01/2026
+-planteamiento inicial de carpetas y estructura del trabajo
+-Inicio de cuentas git y primer esquema de la base de datos
+-problemas para el inicio y sincronizacion de base de datos
+28/01/2026
+-problemas solucionados del git
+-Alex, realizacion de una nueva estructura y esquematizando las clases
+-Yei y angel, creacion del primer index.php, a partir de el uniremos todo lo demas.
