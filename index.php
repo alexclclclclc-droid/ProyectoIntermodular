@@ -13,7 +13,7 @@
     <?php include 'inc/header.php'; ?>
 
     <!-- MAIN CONTENT -->
-    <main id="inicio">
+    <main>
         <div class="video-container">
             <video controls autoplay muted loop>
                 <source src="images/video-apartamentos.mp4" type="video/mp4">
