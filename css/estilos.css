@@ -350,6 +350,7 @@ footer {
 }
 
 /* Contenedor del formulario */
+/* Contenedor del formulario */
 .login-container {
     background: white;
     border-radius: 20px;
@@ -418,17 +419,17 @@ footer {
     border-radius: 8px;
     font-size: 1rem;
     transition: all 0.3s;
-    background: #fafafa;
+    background: #F8F9FA;
 }
 
 .form-group input:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #D4AF37;
     background: white;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.15);
 }
 
-/* Opciones del formulario (Recordarme / Olvidaste contraseña) */
+/* Opciones del formulario */
 .form-options {
     display: flex;
     justify-content: space-between;
@@ -449,20 +450,20 @@ footer {
 }
 
 .forgot-password {
-    color: #667eea;
+    color: #2C3E50;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .forgot-password:hover {
-    color: #764ba2;
+    color: #D4AF37;
 }
 
 /* Botón de envío */
 .btn-login {
     width: 100%;
     padding: 1rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #2C3E50 0%, #D4AF37 100%);
     color: white;
     border: none;
     border-radius: 8px;
@@ -474,14 +475,14 @@ footer {
 
 .btn-login:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 5px 20px rgba(212, 175, 55, 0.5);
 }
 
 .btn-login:active {
     transform: translateY(0);
 }
 
-/* Divisor (línea "o") */
+/* Divisor */
 .divider {
     text-align: center;
     margin: 1.5rem 0;
@@ -515,12 +516,12 @@ footer {
 }
 
 .register-link a {
-    color: #667eea;
+    color: #2C3E50;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s;
 }
 
 .register-link a:hover {
-    color: #764ba2;
+    color: #D4AF37;
 }
