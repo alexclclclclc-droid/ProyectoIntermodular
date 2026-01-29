@@ -121,40 +121,6 @@ main {
     padding: 3rem 5%;
 }
 
-.video-container {
-    width: 100%;
-    max-width: 1200px;
-    margin-bottom: 3rem;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 10px 40px rgba(44, 62, 80, 0.2);
-    position: relative;
-}
-
-.video-container::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 3px solid var(--dorado);
-    border-radius: 12px;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-}
-
-.video-container:hover::before {
-    opacity: 1;
-}
-
-video {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
 .eslogan {
     text-align: center;
     max-width: 900px;

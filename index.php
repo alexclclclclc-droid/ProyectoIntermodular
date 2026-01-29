@@ -14,12 +14,6 @@
 
     <!-- MAIN CONTENT -->
     <main>
-        <div class="video-container">
-            <video controls autoplay muted loop>
-                <source src="images/video-apartamentos.mp4" type="video/mp4">
-                Tu navegador no soporta la reproducción de videos.
-            </video>
-        </div>
         
         <div class="eslogan">
             <h1>Donde el Lujo se Encuentra con el Hogar</h1>
