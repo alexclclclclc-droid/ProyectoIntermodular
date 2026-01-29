@@ -6,4 +6,4 @@
 -problemas solucionados del git
 -Alex, realizacion de una nueva estructura y esquematizando las clases
 -Yei y angel, creacion del primer index.php, a partir de el uniremos todo lo demas.
--angel marqueson a tope niño
+-angel creacion del apartado apartamentos
